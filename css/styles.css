@@ -7,6 +7,7 @@
   --secondary-text-color: #434455;
   --primary-white-color: #ffffff;
   --accent-color: #4d5ae5;
+  --ocean-color: #404bbf;
 }
 h1,
 h2,
@@ -101,15 +102,15 @@ body {
 }
 .contacts-tel:hover,
 .contacts-tel:focus {
-  color: var(--accent-color);
+  color: var(--ocean-color);
 }
 .contacts-email:hover,
 .contacts-email:focus {
-  color: var(--accent-color);
+  color: var(--ocean-color);
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--accent-color);
+  color: var(--ocean-color);
 }
 
 /*===============Logo===========*/
@@ -323,8 +324,6 @@ body {
 }
 .footer-text {
   width: 264px;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 24px;
   color: #e7e9fc;
 }
